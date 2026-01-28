@@ -1,0 +1,70 @@
+{
+  "business_name": "TechFlow Gadgets",
+  "location": "123 Innovation Blvd, Tech City, CA 90210",
+  "business_hours": "Monday - Friday: 9 AM to 6 PM EST. Weekends: Closed.",
+  "contact_email": "support@techflowgadgets.com",
+  "phone": "+1 (555) 019-2834",
+  "return_policy": "We offer a 30-day return policy for all unused items in original packaging. Return shipping is free for defective items.",
+  "warranty_policy": "All devices come with a 1-year limited warranty covering manufacturer defects. Accidental damage is not covered.",
+  "payment_methods": "We accept Visa, MasterCard, Amex, PayPal, and Apple Pay.",
+  "current_promotion": "Use code NEWTECH10 for 10% off your first order.",
+  "shipping_info": "Standard shipping (3-5 days) is free on orders over $50. Express shipping (1-2 days) costs $15.",
+  "products": [
+    {
+      "name": "FlowBuds Pro",
+      "price": "$129.99",
+      "features": "Active Noise Cancellation, 24h battery, Water resistant (IPX4)",
+      "stock_status": "In Stock",
+      "common_issue": "If audio cuts out, try resetting by holding the case button for 10 seconds."
+    },
+    {
+      "name": "FlowPad Tablet",
+      "price": "$399.99",
+      "features": "10-inch Retina display, 64GB storage, Stylus included",
+      "stock_status": "Low Stock",
+      "common_issue": "Screen flickering is usually resolved by a software update in Settings."
+    },
+    {
+      "name": "FlowWatch S1",
+      "price": "$199.99",
+      "features": "Heart rate monitor, GPS, 3-day battery, Sleep tracking",
+      "stock_status": "Out of Stock (Restocking next week)",
+      "common_issue": "Syncing issues? Ensure Bluetooth is enabled on your phone and the FlowApp is open."
+    },
+    {
+      "name": "FlowCam 4K Action",
+      "price": "$249.99",
+      "features": "4K 60fps recording, Waterproof up to 10m, Voice Control, Image Stabilization",
+      "stock_status": "In Stock",
+      "common_issue": "If footage looks blurry, please ensure the protective lens plastic has been removed."
+    },
+    {
+      "name": "FlowStation Dock",
+      "price": "$89.99",
+      "features": "10-in-1 USB-C Hub, 4K HDMI output, 100W Power Delivery, SD Card Reader",
+      "stock_status": "In Stock",
+      "common_issue": "If the HDMI is not working, try flipping the USB-C cable connector."
+    },
+    {
+      "name": "FlowGamer Mouse",
+      "price": "$59.99",
+      "features": "16,000 DPI sensor, RGB lighting, 6 programmable buttons, Wireless",
+      "stock_status": "In Stock",
+      "common_issue": "If the cursor lags, check if the USB receiver is plugged into a USB 3.0 port."
+    },
+    {
+      "name": "FlowSense Thermostat",
+      "price": "$149.99",
+      "features": "Smart Wi-Fi control, Alexa/Google Home compatible, Energy saving mode",
+      "stock_status": "Pre-order only",
+      "common_issue": "If Wi-Fi won't connect, ensure you are using a 2.4GHz network, not 5GHz."
+    },
+    {
+      "name": "FlowVR Headset",
+      "price": "$499.99",
+      "features": "Wireless VR, 120Hz refresh rate, Built-in 3D audio, 256GB storage",
+      "stock_status": "Low Stock",
+      "common_issue": "Motion sickness is common for new users. Take a break every 20 minutes."
+    }
+  ]
+}
