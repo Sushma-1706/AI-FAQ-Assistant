@@ -3,6 +3,7 @@
 An AI-powered FAQ chatbot built using Next.js.  
 It provides automated responses to user queries and simulates a modern customer support assistant.
 
+🌐 **Live Demo:** https://ai-faq-assistant-nu.vercel.app/
 ---
 
 ## 🚀 Features
