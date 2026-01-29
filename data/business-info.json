@@ -1,70 +1,46 @@
 {
-  "business_name": "TechFlow Gadgets",
-  "location": "123 Innovation Blvd, Tech City, CA 90210",
-  "business_hours": "Monday - Friday: 9 AM to 6 PM EST. Weekends: Closed.",
-  "contact_email": "support@techflowgadgets.com",
-  "phone": "+1 (555) 019-2834",
-  "return_policy": "We offer a 30-day return policy for all unused items in original packaging. Return shipping is free for defective items.",
-  "warranty_policy": "All devices come with a 1-year limited warranty covering manufacturer defects. Accidental damage is not covered.",
-  "payment_methods": "We accept Visa, MasterCard, Amex, PayPal, and Apple Pay.",
-  "current_promotion": "Use code NEWTECH10 for 10% off your first order.",
-  "shipping_info": "Standard shipping (3-5 days) is free on orders over $50. Express shipping (1-2 days) costs $15.",
-  "products": [
+  "business_name": "TechFlow Platform",
+  "overview": {
+    "what_is_it": "TechFlow is a comprehensive e-commerce and tech support platform designed to help users discover, buy, and troubleshoot the latest gadgets.",
+    "how_it_works": "Simply browse our catalog, place an order, or use our AI tools to troubleshoot your existing devices.",
+    "who_is_it_for": "Tech enthusiasts, small businesses, and anyone looking for reliable smart gadgets.",
+    "devices_supported": "Our web platform works on all modern browsers (Chrome, Safari, Edge) on Desktops, Tablets, and Smartphones.",
+    "mobile_app": "Yes, we have a mobile app available for iOS and Android.",
+    "updates": "We release platform updates bi-weekly to ensure security and new features."
+  },
+  "account_management": {
+    "create_account": "Click the 'Sign Up' button in the top right corner. You can register with email or Google.",
+    "reset_password": "Go to the Login page and click 'Forgot Password'. A reset link will be sent to your email.",
+    "change_details": "You can update your profile details in 'My Account' > 'Settings'.",
+    "delete_account": "To delete your account, please contact support. This is a permanent action.",
+    "data_security": "Your data is encrypted using industry-standard AES-256 encryption. We do not sell data to third parties."
+  },
+  "pricing_and_billing": {
+    "is_it_free": "Creating an account is free. You only pay for the products you purchase.",
+    "payment_methods": "We accept Visa, MasterCard, PayPal, Apple Pay, and Google Pay.",
+    "subscriptions": "We offer a 'TechFlow Premium' subscription for $9.99/mo which gives free express shipping and priority support.",
+    "cancel_subscription": "You can cancel anytime in 'My Account' > 'Billing'. Access continues until the end of the billing cycle.",
+    "refunds": "We offer full refunds within 30 days for products. Subscription fees are non-refundable after 48 hours.",
+    "hidden_charges": "No, there are no hidden fees. All taxes and shipping costs are shown at checkout.",
+    "free_trial": "Yes, TechFlow Premium comes with a 7-day free trial."
+  },
+  "support_and_feedback": {
+    "contact_support": "You can contact us via this chat, email at support@techflow.com, or call +1-555-0199.",
+    "hours": "Our support team is available Monday to Friday, 9 AM - 6 PM EST.",
+    "feedback": "We love feedback! You can submit suggestions via the 'Feedback' tab in your dashboard.",
+    "documentation": "Yes, we have a full Help Center and video tutorials available at techflow.com/help.",
+    "community": "Join our community forum at community.techflow.com."
+  },
+  "products_sample": [
     {
       "name": "FlowBuds Pro",
       "price": "$129.99",
-      "features": "Active Noise Cancellation, 24h battery, Water resistant (IPX4)",
-      "stock_status": "In Stock",
-      "common_issue": "If audio cuts out, try resetting by holding the case button for 10 seconds."
+      "stock": "In Stock"
     },
     {
       "name": "FlowPad Tablet",
       "price": "$399.99",
-      "features": "10-inch Retina display, 64GB storage, Stylus included",
-      "stock_status": "Low Stock",
-      "common_issue": "Screen flickering is usually resolved by a software update in Settings."
-    },
-    {
-      "name": "FlowWatch S1",
-      "price": "$199.99",
-      "features": "Heart rate monitor, GPS, 3-day battery, Sleep tracking",
-      "stock_status": "Out of Stock (Restocking next week)",
-      "common_issue": "Syncing issues? Ensure Bluetooth is enabled on your phone and the FlowApp is open."
-    },
-    {
-      "name": "FlowCam 4K Action",
-      "price": "$249.99",
-      "features": "4K 60fps recording, Waterproof up to 10m, Voice Control, Image Stabilization",
-      "stock_status": "In Stock",
-      "common_issue": "If footage looks blurry, please ensure the protective lens plastic has been removed."
-    },
-    {
-      "name": "FlowStation Dock",
-      "price": "$89.99",
-      "features": "10-in-1 USB-C Hub, 4K HDMI output, 100W Power Delivery, SD Card Reader",
-      "stock_status": "In Stock",
-      "common_issue": "If the HDMI is not working, try flipping the USB-C cable connector."
-    },
-    {
-      "name": "FlowGamer Mouse",
-      "price": "$59.99",
-      "features": "16,000 DPI sensor, RGB lighting, 6 programmable buttons, Wireless",
-      "stock_status": "In Stock",
-      "common_issue": "If the cursor lags, check if the USB receiver is plugged into a USB 3.0 port."
-    },
-    {
-      "name": "FlowSense Thermostat",
-      "price": "$149.99",
-      "features": "Smart Wi-Fi control, Alexa/Google Home compatible, Energy saving mode",
-      "stock_status": "Pre-order only",
-      "common_issue": "If Wi-Fi won't connect, ensure you are using a 2.4GHz network, not 5GHz."
-    },
-    {
-      "name": "FlowVR Headset",
-      "price": "$499.99",
-      "features": "Wireless VR, 120Hz refresh rate, Built-in 3D audio, 256GB storage",
-      "stock_status": "Low Stock",
-      "common_issue": "Motion sickness is common for new users. Take a break every 20 minutes."
+      "stock": "Low Stock"
     }
   ]
 }
