@@ -34,8 +34,8 @@ my-support-bot/
 │   └── business-info.json   # Knowledge Base (FAQs, Products, & Policies)
 ├── .env.local               # Environment Variables (API Keys)
 └── README.md                # Documentation
-
 ---
+
 
 ## ⚙️ Getting Started
 
@@ -71,8 +71,10 @@ http://localhost:3000
 ---
 ### ⚙️ How to Customize
 **Adding New FAQs**
+
 To add more questions (e.g., "Do you ship internationally?"), simply edit `data/business-info.json`. The AI reads this file dynamically.
 **Example:**
+
 ```bash
 "shipping": {
   "international": "Yes, we ship to over 50 countries worldwide.",
@@ -80,27 +82,36 @@ To add more questions (e.g., "Do you ship internationally?"), simply edit `data/
 }
 ```
 **Changing the AI Personality**
+
 Edit `app/api/chat/route.ts` and modify the `SYSTEM_INSTRUCTION variable`. You can change the tone (friendly vs. formal) or formatting rules.
 
 ---
 
 ### 🛡️ Bot Capabilities
 The bot is currently trained to answer the following categories based on data/business-info.json:
+
 **1. General Platform Questions**
+
    - What is this platform?
    - How does it work?
    - Who is it for?
    - Mobile app availability.
+
 **2. Account Management**
+     
    - How to reset passwords.
    - Creating/Deleting accounts.
    - Data security.
+
 **3. Billing & Subscriptions**
+     
    - Pricing & Payment methods.
    - Refund policies.
    - Canceling subscriptions.
    - Hidden charges.
+
 **4. Support**
+     
    - Working hours.
    - Contact methods.
    - Giving feedback.
