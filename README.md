@@ -34,8 +34,8 @@ my-support-bot/
 │   └── business-info.json   # Knowledge Base (FAQs, Products, & Policies)
 ├── .env.local               # Environment Variables (API Keys)
 └── README.md                # Documentation
----
 
+---
 
 ## ⚙️ Getting Started
 
@@ -73,9 +73,10 @@ http://localhost:3000
 **Adding New FAQs**
 
 To add more questions (e.g., "Do you ship internationally?"), simply edit `data/business-info.json`. The AI reads this file dynamically.
+
 **Example:**
 
-```bash
+```JSON
 "shipping": {
   "international": "Yes, we ship to over 50 countries worldwide.",
   "tracking": "You will receive a tracking link via email once shipped."
@@ -131,6 +132,7 @@ This project can be easily deployed using Vercel:
 ### 👩‍💻 Author
 
 Sushma Damacharla
+
 `
 GitHub: https://github.com/Sushma-1706
 `
