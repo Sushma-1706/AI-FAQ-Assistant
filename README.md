@@ -2,8 +2,9 @@
 
 A full-stack AI chatbot built with **Next.js**, **React**, and **Google Gemini AI**. 
 It is designed to handle General FAQs, Product Inquiries, Account Support, and Billing questions for small businesses.
-🌐 **Live Demo:** https://ai-faq-assistant-nu.vercel.app/
 
+🌐 **Live Demo:** https://ai-faq-assistant-nu.vercel.app/
+---
 ## 🚀 Features
 
 - **AI-Powered Answers:** Uses Google's Gemini Flash model for fast, accurate responses.
@@ -11,6 +12,7 @@ It is designed to handle General FAQs, Product Inquiries, Account Support, and B
 - **Markdown Support:** Displays lists, bold text, and links cleanly in the chat UI.
 - **Modern UI:** Responsive, card-style chat interface using Tailwind CSS.
 - **Hallucination Control:** Strict system prompts prevent the bot from making up facts.
+---
 
 ## 🛠️ Tech Stack
 
@@ -19,6 +21,7 @@ It is designed to handle General FAQs, Product Inquiries, Account Support, and B
 - **AI Model:** Google Gemini 2.0 Flash / 1.5 Flash (via REST API)
 - **Data Source:** Static JSON file (`data/business-info.json`)
 - **Formatting:** `react-markdown`, `remark-gfm`
+---
 
 ## 📂 Project Structure
 
