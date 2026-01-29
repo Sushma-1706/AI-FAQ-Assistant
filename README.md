@@ -44,6 +44,7 @@ my-support-bot/
 ```bash
 git clone https://github.com/Sushma-1706/AI-FAQ-Assistant.git
 cd AI-FAQ-Assistant
+
 ```
 
 ### 2️⃣ Install dependencies
